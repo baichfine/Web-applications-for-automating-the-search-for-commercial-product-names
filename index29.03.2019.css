@@ -1,0 +1,468 @@
+#logo111 {
+  font-size:1.65vw;
+  font-weight: 900;
+  color: black;
+}
+
+#logo1111 {
+  font-size:1.65vw;
+  font-weight: 900;
+  color: orange;
+}
+#logo1 {
+  text-decoration: none;
+  position: absolute;
+  left: 4.181%;
+  top : 2.346%;
+  width: 9.847%;
+  height: 8.642%;
+  }
+#logo11 {
+  text-decoration: none;
+  position: absolute;
+  left: 8.315%;
+  top : 2.346%;
+  width: 2.8125%;
+  height: 2.37%;
+}
+#text {
+  position: fixed;
+  font-family: Roboto;
+  font-size: 1.2vw;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+
+#texty {
+  position: fixed;
+  left: 87%;
+  top: 93.965%;
+  font-family: Roboto;
+  font-size: 1vw;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+
+#texty1 {
+  font-family: Roboto;
+  font-size:1.2vw;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+
+#polukrug1 {
+  border-radius: 15px;
+  position: absolute;
+  left: 16.39%;
+  top : 2.47%;
+  width: 9.375%;
+  height: 3.7%;
+  background-color: white;
+  opacity: 0.17;
+  font-size:xx-large;
+}
+
+#h1 {
+  position: absolute;
+  left: 17.43%;
+  top : 3.7%;
+  width: 6.736%;
+  height: 1.852%;
+  font-family: Roboto;
+  font-size: 0.85vw;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+#treugol {
+  position: absolute;
+  left: 24.15%;
+  top : 3.53%;
+  width: 0.417%;
+  height: 0.741%;
+}
+
+#polukrug2 {
+  border-radius: 15px;
+  position: absolute;
+  left: 78.889%;
+  top : 2.716%;
+  width: 6.389%;
+  height: 3.21%;
+    background-color: white;
+  opacity: 0.17;
+}
+
+#h2{
+  position: absolute;
+  left: 80.972%;
+  top : 3.333%;
+  width: 3.75%;
+  height: 1.975%;
+  font-family: Roboto;
+  font-size: 1.15vw;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+
+#polukrug3 {
+  border-radius: 15px;
+  position: absolute;
+  left: 85.972%;
+  top : 2.716%;
+  width: 4.167%;
+    background-color: white;
+  height: 3.21%;
+  opacity: 0.17;
+}
+
+#h3{
+  position: absolute;
+  left: 88.75%;
+  top : 3.334%;
+  width: 0.556%;
+  height: 2.346%;
+  font-family: Roboto;
+  font-size: 1.4vw;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+
+#korz {
+  position: absolute;
+  left: 86.667%;
+  top : 2.716%;
+  width: 2.084%;
+  height: 3.21%;
+}
+
+#polukrug4 {
+  border-radius: 15px;
+    background-color: white;
+  position: absolute;
+  left: 90.8333%;
+  top : 2.716%;
+  width: 5%;
+  height: 3.21%;
+  opacity: 0.17;
+}
+
+#h4{
+  position: absolute;
+  left: 92.153%;
+  top : 3.334%;
+  width: 2.917%;
+  height: 1.975%;
+  font-family: Roboto;
+  font-size: 1.15vw;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+
+#q {
+  color: black;
+}
+#navigator {
+  position: absolute;
+  left: 79.44%;
+  top : 3.58%;
+  width: 0.625%;
+  height: 1.321%;
+  transform: rotate(-65deg);
+  border-radius: 0.069%;
+}
+#zvonok {
+  border-radius: 15px;
+  background-color: white;
+  height: 100%;
+}
+
+#nayti1 {
+  position: absolute;
+  left: 85%;
+  width: 90px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: #dce1e4;
+}
+
+#poiskverh {
+  border-radius: 4px;
+  position: absolute;
+  left: 31.18%;
+  top : 1.852%;
+  width: 46%;
+  height: 5.6%;
+}
+
+#poisk {
+  border-radius: 4px;
+  position: absolute;
+  left: 29.167%;
+  top : 41.975%;
+  width: 46%;
+  height: 5.6%;
+}
+
+#poisk1 {
+  border-radius: 4px;
+  width: 85%;
+  height: 40px;
+}
+
+#poyas {
+  position: absolute;
+  left: 29.167%;
+  top : 50.617%;
+  width: 36.111%;
+  height: 5.926%;
+  opacity: 0.8;
+  font-family: Roboto;
+  font-size: 40vw;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+  color: #8e8e8e;
+}
+
+#texty2 {
+  width: 56%;
+  height: 5.926%;
+  opacity: 0.8;
+  font-family: Roboto;
+  font-size: 0.81vw;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+  color: #8e8e8e;
+}
+
+#moskvfixed {
+  position:fixed;
+  left: 76.18%;
+  top : 9.63%;
+  width: 12.222%;
+  height: 2.346%;
+  font-family: Roboto;
+  font-size: 1vw;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #000000;
+}
+
+#blok {
+  background-color: white;
+  position:fixed;
+  left: 74.792%;
+  top : 7.407%;
+  width: 21.042%;
+  height: 12.963%;
+  border-radius: 2px;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.15), 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+}
+
+#krestik {
+  position:absolute;
+  left: 92%;
+  top : 9.012%;
+  width: 0.972%;
+  height: 1.728%;
+  background-color: #b2b2b2;
+}
+
+#damoskva {
+  position:fixed;
+  left: 76.18%;
+  top : 13.58%;
+  width: 4.236%;
+  height: 4.444%;
+  border-radius: 3px;
+  background-color: #ffb74d;
+}
+
+#onasru, #dostavkaru,#vozvratru,#oplataru,#ofertaru {
+  height: 45px;
+  font-family: Ubuntu;
+  font-size: 2.5vw;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+}
+#oplataru1 {
+  font-weight: bold;
+  font-family: Roboto;
+font-size: 20px;
+font-weight: 500;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.4;
+letter-spacing: 0.3px;
+text-align: center;
+color: #10171e;
+
+}
+#onasopis, #dostavkaopis,#vozvratopis,#oplataopis,#ofertaopis {
+font-family: Roboto;
+font-size: 18px;
+font-weight: normal;
+font-style: normal;
+font-stretch: normal;
+line-height: 1.5;
+letter-spacing: 0.2px;
+color: #10171e;
+
+}
+#netmoskva {
+  position:fixed;
+  left: 81.042%;
+  top : 13.58%;
+  width: 13.472%;
+  height: 4.444%;
+  border-radius: 3px;
+  background-color: white;
+}
+
+#tekst1 {
+  position: absolute;
+  top: 17.143%;
+  left: 7.1%;
+  font-family: Roboto;
+font-size: 1.5vw;
+font-weight: 900;
+font-style: normal;
+font-stretch: ultra-expanded;
+line-height: inherit;
+letter-spacing: 0.5px;
+color: #000000;
+}
+
+#VinKod {
+  position:absolute;
+  left: 33.333%;
+  top : 25.309%;
+  width: 33.333%;
+  height: 49.383%;
+  border-radius: 2px;
+  box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.15), 0 1px 4px 0 rgba(0, 0, 0, 0.2);
+  background-color: #ffffff;
+}
+
+#vin {
+  position:absolute;
+  left: 29.167%;
+  top : 50.78%;
+  width: 3.88889%;
+  height: 2%;
+}
+
+#krestik1 {
+  position:fixed;
+  left: 64.792%;
+  top : 27.284%;
+  width: 0.972%;
+  height: 0.972%;
+  transform: rotate(-45deg);
+  background-color: #b2b2b2;
+}
+
+#tekkst {
+  position:fixed;
+  left: 33.333%;
+  top : 27.778%;
+  width: 33.333%;
+  height: 4.198%;
+  font-family: Ubuntu;
+  font-size: 3vw;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #000000;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+.wrapper, #root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.content {
+  flex: 1 0 auto;
+}
+.footer {
+  flex: 0 0 auto;
+}
+#something {
+  padding-right: 15%;
+  padding-left: 15%;
+  padding-top: 10%;
+}
+.tekstt {
+  font-family: Roboto;
+  font-size: 1.1vw;
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: 0.5px;
+  color: #000000;
+  padding-bottom: 2.8vw;
+  padding-left: 6vw;
+  padding-top: 2.8vw;
+}
+#foot{
+  display: -webkit-inline-flex;
+  display: inline-flex;
+}
+.a {
+    text-decoration: none;
+}
+#whitefon {
+    min-width: 700px;
+}

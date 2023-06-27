@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg id='theSVG' xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 200 20" xml:space="preserve">
+	<style>
+	.cl{
+		fill:none;
+		stroke-width:2;
+		stroke:#ffb74d;
+	}
+	@keyframes fm {
+		0% {
+			transform: translateX(0px);
+		}
+		100% {
+			transform: translateX(28px);
+		}
+	}
+	.dv {
+		animation: fm 0.7s linear infinite;
+	}
+	.z0{
+		fill:#ffb74d;
+	}
+	.z1{
+		fill:none;
+	}
+	</style>
+	<defs>
+		<pattern id='grd' width='20' height='20' patternUnits='userSpaceOnUse' patternTransform='rotate(45)'>
+			<rect x='10' width='10' height='20' class='z0'/>
+			<rect width='10' height='20' class='z1'/>
+		</pattern>
+		<rect id='msk' width="100%" height="100%" />
+	</defs>
+	<rect x='-30' width="230" height="100%" style='fill:url(#grd);' class='dv'/>
+	<use xlink:href="#msk" class='cl'/>
+</svg>

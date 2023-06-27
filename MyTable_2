@@ -1,0 +1,231 @@
+import React from 'react'
+
+export default class MyTable extends React.Component {
+
+  constructor(props) {
+    super(props);
+    this.name1=new Array();
+    this.id=0;
+  this.name1[0] =
+    [
+      {
+        id:1,
+        abbr:"tire",
+        name:"Шины и диски"
+      },
+      {
+        id:2,
+        abbr:"oil",
+        name:"Масла, смазки, жидкости"
+      },
+
+      {
+      id: 3,
+      abbr:"battery",
+      name:"Аккумуляторы и принадлежности",
+
+    },
+
+      {
+      id: 4,
+      abbr:"tools",
+      name:"Инструменты"
+      },
+    {
+      id: 5,
+      abbr:"autoParts",
+      name:"Автозапчасти"
+    },
+    {
+      id: 6,
+      abbr:"accessory",
+      name:"Автоаксессуары"
+    },
+    {
+      id: 7,
+      abbr:"filter",
+      name:"Фильтры для авто"
+    },
+    {
+      id: 8,
+      abbr:"electronics",
+      name:"Автоэлектроника"
+    },
+    {
+      id: 9,
+      abbr:"equipment",
+      name:"Электрооборудование"
+    },
+    {
+      id: 10,
+      abbr:"chemistry",
+      name:"Автокосметика и автохимия"
+    },
+    {
+      id: 11,
+      abbr:"fastener",
+      name:"Крепеж, метизы, заглушки, ремкомплекты"
+    },
+
+  ];
+
+this.name1[1]=[
+            {
+              id:101,
+              name:"Авторезина"
+            },
+            {
+              id:102,
+              name:"Камеры"
+            },
+            {
+              id:103,
+              name:"Колесные диски"
+            },
+            {
+              id:104,
+              name:"Колпаки"
+            },
+            {
+              id:105,
+              name:"Крепежи и принадлежности колёс"
+            }
+          ];
+
+this.name1[2]=[
+            {
+              id: 201,
+              name:"Автомасла"
+            },
+            {
+              id: 202,
+              name:"Жидкости омывателя"
+            },
+            {
+              id: 203,
+              name:"Эксплуатационные жидкости"
+            },
+            {
+              id: 204,
+              name:"Присадки"
+            },
+            {
+              id: 205,
+              name:"Масла индустриальные"
+            },
+            {
+              id: 206,
+              name:"Масла для мототехники"
+            }
+          ];
+
+this.name1[3]=[
+            {
+              id: 301,
+              name:"Аккумуляторные батареи"
+            },
+            {
+              id: 302,
+              name:"Провода прикуривателя"
+            },
+            {
+              id: 303,
+              name:"Устройства зарядные для АКБ"
+            }
+          ];
+
+this.name1[202]=[
+            {
+              id:2021,
+              name:"Незамерзающая жидкость"
+            },
+            {
+              id: 2022,
+              name:"Омыватель летний для стёкол"
+              }
+            ];
+  }
+
+  state = {
+   data: this.name1,
+   displayChild: null
+ };
+
+
+
+  createTable = (id) => {
+    let table = []
+    // Outer loop to create parent
+    let children = {
+      //name: ['Шины и диски', 'Масла, смазки, жидкости', 'Аккумуляторы и принадлежности', 'Инструменты', 'Автозапчасти', 'Автоаксессуары', 'Фильтры для авто', 'Автоэлектроника', 'Электрооборудование', 'Автокосметика и автохимия', 'Крепеж, метизы, заглушки, ремкомплекты' ],
+      //key: ""
+    }
+    //name1[0].elements[0].id
+    //name1[0].elements[0].name
+
+  table=this.name1[id].map((obj,i)=> {
+      return (<tr key={obj.id}><td onClick={(id) => this.setId(obj.id)}>{obj.name}</td></tr>);
+          /*  this.state= {id: 0};
+      return (<tr key={obj.id}><td><a onClick={this.setState({id: {obj:id}})}>{obj.name}</a></td></tr>); */
+      // name1.sh.name
+    });
+    //alert(name1[0].name);
+    return table;
+  }
+  setId = (id) => {
+    this.id=id;
+    alert(this.createTable(this.id));
+    /* alert(this.name1[id].map((obj,i)=> {
+      return obj.name;
+    }
+    ));
+    */
+  }
+
+  _renderChildren = (name1) => {
+   const result = this.name1.map(el => {
+     return (<li key={el.id}> {el.name} </li>)
+   });
+
+   return (
+     <ul>
+       {result}
+     </ul>
+   )
+ };
+
+ expandParent = (id) => {
+   this.setState({
+     displayChild: id
+   });
+ };
+
+
+  render() {
+    return(
+      <div>
+      <table>
+      <tbody>
+        {this.createTable(this.id)}
+        </tbody>
+      </table>
+
+      <div className="wrapper">
+      <ul>
+        {this.state.data.this.name1.map(element => (
+          <li key={element.id} onClick={() => this.expandParent(element.id)}>
+            {element.name}
+            {element.id === this.state.displayChild && element.this.name1 && this._renderChildren(element.this.name1)}
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    </div>
+
+    )
+  }
+
+
+
+}
